@@ -348,6 +348,7 @@ class QRCodeCanvas extends React.PureComponent<QRProps, {imgLoaded: boolean}> {
           style={canvasStyle}
           height={size}
           width={size}
+          id="qrcanvas"
           ref={(ref: ?HTMLCanvasElement): ?HTMLCanvasElement =>
             (this._canvas = ref)
           }
